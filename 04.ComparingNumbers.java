@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ComparingNumbers {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int i = Integer.parseInt(scanner.nextLine());
+        int j = Integer.parseInt(scanner.nextLine());
+        if(i > j){
+            System.out.println(i +" is greater than " +j+".");
+        }else if(i<j){
+            System.out.println(i +" is smaller than " +j+".");
+        }else{
+            System.out.println(i +" is equal to "+ j+ ".");
+        }
+    }
+}
